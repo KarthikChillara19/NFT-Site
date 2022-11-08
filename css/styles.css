@@ -1,0 +1,177 @@
+body{
+    background-color: #FFF4CF;
+    text-align: center;
+}
+h1{
+    color: #277BC0;
+}
+
+/* Navbar */
+.navbar-brand{
+    color: #277BC0;
+    font-family: Silkscreen;
+    font-weight: 400;
+    font-size: 2rem;
+}
+.nav-link{
+    color: white;
+    font-family: Silkscreen;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.eyeCatcher{
+    text-align: center;
+}
+.mainTitle{
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 35px;
+    margin-bottom: 20px;
+    font-family: Quicksand;
+    font-weight: 700;
+    font-size: 6rem;
+    
+}
+
+/* Carousel */
+#NFT_carousel{
+    padding: 0 10% 10%;
+    
+}
+/* .carousel-inner{
+    
+}
+.carousel-item{
+    height: 1080px;
+    width: 1080px;
+} */
+
+/* NEWS */
+.news_articles{
+    text-align: left;
+}
+.news_heading{
+    font-family: Quicksand;
+    font-weight: bold;
+    color: #277BC0;
+    /* position: relative; */
+    margin-left: 16%;
+    font-size: 3rem;
+    padding: 0 0 2% 0;
+    /* flex: auto; */
+    display: inline-block;
+}
+.news_heading_2{
+    font-family: Quicksand;
+    font-weight: bold;
+    color: #277BC0;
+    /* position: relative; */
+    margin-left: auto;
+    font-size: 3rem;
+    padding: 0 0 2% 0;
+    /* flex: auto; */
+    display: inline-block;
+}
+.trending_icon{
+    font-size: 2.5rem;
+    color: #277BC0;
+    padding-left: 10px;
+    /* position: absolute; */
+}
+.grid_1{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    /* grid-template-rows: (2, 1fr); */
+}
+/* .grid_item{
+     grid-column-start: 1;
+    grid-column-end: 3; 
+     grid-column: 1/3; 
+} */
+.news_content{
+    /* display:block; */
+    flex: auto;
+    text-align: left;
+    color: #277BC0;
+    margin-left: 16%;
+    font-size: 1.7rem;
+    font-family: Quicksand;
+    font-weight: 500;
+}
+
+/* Footer */
+
+#footer {
+    background-color:#FFB200;
+    padding: 4% 6% 0.5% 6%;
+    text-align: center;
+}
+.footer_btn {
+    color: #277BC0;
+    margin: 10px;
+    padding-bottom: 10px;
+    padding-left: 10%;
+    padding-right: 50px;
+    font-size: 2rem;
+    
+}
+
+.email_list{
+    padding-bottom: 1%;
+}
+.footer_heading{
+    font-family: Quicksand;
+    font-weight: bold;
+    color: #277BC0;
+    text-align: left;
+    margin-left: 10%;
+    font-size: 3rem;
+}
+.email_text{
+    box-sizing: border-box;
+    display:block;
+    text-align: left;
+    color: #277BC0;
+    margin-left: 10%;
+    font-size: 1rem;
+    font-family: Quicksand;
+    font-weight: 500;
+}
+#mailList_form{
+    text-align: left;
+    margin-left: 10%;
+}
+.btn_submit{
+    background-color: #277BC0;
+    color: #fff;
+    font-family: Quicksand;
+    font-weight: bold;
+}
+.btn_submit:hover{
+    background-color: #FFB200;
+    color: black;
+}
+.socials{
+
+    text-align: left;
+}
+hr{
+    color: #277BC0;
+}
+.aboutUs{
+    text-align: left;
+    margin: 2.5%;
+    padding-bottom: 5%;
+}
+#company_logo{
+    margin-left: 10%;
+}
+
+.footer_text {
+    text-align: center;
+    color: #277BC0;
+    font-size: 0.85rem;
+}
